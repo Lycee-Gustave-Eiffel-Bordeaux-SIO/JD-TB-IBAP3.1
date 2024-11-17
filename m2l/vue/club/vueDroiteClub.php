@@ -1,0 +1,2 @@
+<?php 
+$formInfosClub->afficherFormulaire();

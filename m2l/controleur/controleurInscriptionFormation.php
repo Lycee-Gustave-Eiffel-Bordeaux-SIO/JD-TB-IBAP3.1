@@ -1,0 +1,6 @@
+<?php 
+
+$_SESSION['inscription']=FormationDao::inscriptionFormation( $_SESSION['identification'], $_POST['idForma']);
+
+header("Location: index.php?m2lMP=formation");
+exit();
